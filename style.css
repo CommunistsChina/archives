@@ -5,10 +5,10 @@
 
 h1 { margin: 7px; }
 
-sub {
+subnum {
 	display: flex;
 	align-self: flex-end;
-	font-size: 15px;
+	font-size: 14px;
 }
 
 p {
@@ -91,11 +91,12 @@ pageText {
 
 formula {
 	display: flex;
+	flex-direction: row;
 	align-self: center;
 	font-size: 20px;
 	margin: 20px;
 	padding: 8px;
-	background-color: #aaa;
+	background-color: #ddd;
 	width: 95%;
 	color: #000;
 }
@@ -111,7 +112,11 @@ formula {
 		color: #fff;
 	}
 
-	formula { color: #fff; background-color: #333; }
+	formula {
+		color: #fff;
+		background-color: #333;
+	}
+
 	a { color: #00d9ff; }
 
 	pageText {
