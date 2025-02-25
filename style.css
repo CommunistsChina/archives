@@ -122,6 +122,19 @@ list {
 	color: #000;
 }
 
+part {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	margin: 20px;
+	padding: 8px;
+	width: 95%;
+	color: #000;
+	font-size: large;
+	font-weight: bolder;
+	border-bottom: 1px solid #555;
+}
+
 @media (prefers-color-scheme: dark) {
 	pageHead {
 		background-color: rgba(0, 0, 0, 0.45);
@@ -135,6 +148,7 @@ list {
 
 	formula { color: #fff; background-color: #333; }
 	list { color: #fff; background-color: #333; }
+	part { color: #fff }
 	a { color: #00d9ff; }
 
 	pageText {
